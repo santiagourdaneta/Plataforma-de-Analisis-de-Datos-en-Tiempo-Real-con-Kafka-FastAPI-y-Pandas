@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Paquetes de Python
+*.egg-info/
+build/
+dist/
+.mypy_cache
+.pytest_cache
+
+# Entorno Docker
+# El docker-compose.yml está incluido, pero si hubiera imágenes locales:
+# *.img
+
+# Archivos de Jupyter/Datos Temporales
+.ipynb_checkpoints
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# Logs y Archivos de Configuracion
+*.log
+.DS_Store
